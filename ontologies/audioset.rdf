@@ -7,7 +7,7 @@
          xmlns="https://w3id.org/audioset/ontology#">
 
 <owl:Ontology rdf:about="https://w3id.org/audioset/ontology">
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">my comment</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL Ontology for the AudioSet dataset from Google.</rdfs:comment>
 </owl:Ontology>
 
 <owl:ObjectProperty rdf:about="#has_accent">
