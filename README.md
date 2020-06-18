@@ -23,3 +23,14 @@ ontospy gendocs -o docs https://raw.githubusercontent.com/MaastrichtU-IDS/ontolo
 ```
 
 > Choose the visualization type
+
+Multi docs:
+
+```bash
+ontospy gendocs -o docs/summary https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
+# 1
+
+ontospy gendocs -o docs/browse https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
+# 2
+```
+
