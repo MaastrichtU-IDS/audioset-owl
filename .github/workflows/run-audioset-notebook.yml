@@ -45,5 +45,5 @@ jobs:
 
     - uses: actions/upload-artifact@master
       with:
-        name: rdf-output
+        name: ontology-output
         path: ontologies
