@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="https://w3id.org/audioset/ontology"
-         xmlns="https://w3id.org/audioset/ontology#">
+         xml:base="https://w3id.org/audioset"
+         xmlns="https://w3id.org/audioset#">
 
-<owl:Ontology rdf:about="https://w3id.org/audioset/ontology">
+<owl:Ontology rdf:about="https://w3id.org/audioset">
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL Ontology for the AudioSet dataset from Google.</rdfs:comment>
 </owl:Ontology>
 
