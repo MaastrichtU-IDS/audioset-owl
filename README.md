@@ -14,3 +14,12 @@ Start JupyterLab locally from the root folder of the git repository:
 docker run --rm -it -p 8888:8888 -v $(pwd):/notebooks -e PASSWORD="<your_secret>" umids/jupyterlab:latest
 ```
 
+### Generate docs
+
+Using Ontospy, from the commandline:
+
+```bash
+ontospy gendocs -o docs https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
+```
+
+> Choose the visualization type
