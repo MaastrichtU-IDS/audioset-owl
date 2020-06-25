@@ -1,4 +1,4 @@
-name: Run notebook to generate AudioSet ontology
+name: Run AudioSet notebook
 
 on:
   push:
