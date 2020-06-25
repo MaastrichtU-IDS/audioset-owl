@@ -32,9 +32,16 @@ ontospy gendocs -o docs/summary https://raw.githubusercontent.com/MaastrichtU-ID
 
 ontospy gendocs -o docs/browse https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
 # 2
+
+mkdir -p docs/classtree
+ontospy gendocs -o docs/classtree https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
+# 4
 ```
+
+### See also
+
+d3.js graph viewer: http://www.visualdataweb.de/webvowl/#iri=http://digital-repositories.org/ontologies/dspace/0.1.0.owl
 
 ### Original AudioSet Ontology license
 
 The ontology is made available by Google Inc. under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
-
