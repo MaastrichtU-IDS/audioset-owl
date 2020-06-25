@@ -16,6 +16,14 @@ docker run --rm -it -p 8888:8888 -v $(pwd):/notebooks -e PASSWORD="<your_secret>
 
 ### Generate docs
 
+See Ontospy documentation: http://lambdamusic.github.io/Ontospy
+
+Install Ontospy:
+
+```bash
+pip install ontospy[FULL]
+```
+
 Using Ontospy, from the commandline:
 
 ```bash
@@ -24,12 +32,14 @@ ontospy gendocs -o docs https://raw.githubusercontent.com/MaastrichtU-IDS/ontolo
 
 > Choose the visualization type
 
-Multi docs:
+We are generating 3 differents pages in subfolder of the `docs/` folder. The folder where the documentation will be generated needs to exist:
 
 ```bash
+mkdir -p docs/summary
 ontospy gendocs -o docs/summary https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
 # 1
 
+mkdir -p docs/browse
 ontospy gendocs -o docs/browse https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
 # 2
 
@@ -40,7 +50,9 @@ ontospy gendocs -o docs/classtree https://raw.githubusercontent.com/MaastrichtU-
 
 ### See also
 
-d3.js graph viewer: http://www.visualdataweb.de/webvowl/#iri=http://digital-repositories.org/ontologies/dspace/0.1.0.owl
+[WebVOWL](http://www.visualdataweb.de/webvowl/), d3.js graph viewer: 
+
+http://www.visualdataweb.de/webvowl/#iri=https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
 
 ### Original AudioSet Ontology license
 
