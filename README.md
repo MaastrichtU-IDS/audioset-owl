@@ -34,3 +34,7 @@ ontospy gendocs -o docs/browse https://raw.githubusercontent.com/MaastrichtU-IDS
 # 2
 ```
 
+### Original AudioSet Ontology license
+
+The ontology is made available by Google Inc. under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+
