@@ -1,3 +1,4 @@
 {
-    "output_format": "rdfxml"
+    "output_format": "rdfxml",
+    "audioset_ontology_uri": "https://w3id.org/audioset"
 }

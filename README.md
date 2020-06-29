@@ -32,21 +32,31 @@ ontospy gendocs -o docs https://raw.githubusercontent.com/MaastrichtU-IDS/ontolo
 
 > Choose the visualization type
 
-We are generating 3 differents pages in subfolder of the `docs/` folder. The folder where the documentation will be generated needs to exist:
+We are generating 4 differents pages in subfolder of the `docs/` folder. The folder where the documentation will be generated needs to exist:
 
 ```bash
 mkdir -p docs/summary
-ontospy gendocs -o docs/summary https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
-# 1
+ontospy gendocs -o docs/summary --type 1 --nobrowser ontologies/audioset.rdf
+# >1
 
 mkdir -p docs/browse
-ontospy gendocs -o docs/browse https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
-# 2
+ontospy gendocs -o docs/browse --type 2 --nobrowser ontologies/audioset.rdf
+# >2
 
 mkdir -p docs/classtree
-ontospy gendocs -o docs/classtree https://raw.githubusercontent.com/MaastrichtU-IDS/ontology-editor-audioset/master/ontologies/audioset.rdf
-# 4
+ontospy gendocs -o docs/classtree --type 4 --nobrowser ontologies/audioset.rdf
+# >4
+
+mkdir -p docs/graph
+ontospy gendocs -o docs/graph --type 10 --nobrowser ontologies/audioset.rdf
+# >10
 ```
+
+> See the source code for [more details on parameters](https://github.com/lambdamusic/Ontospy/blob/master/ontospy/cli.py#L169).
+
+The Graph visualisation can be improved at:
+* https://github.com/lambdamusic/Ontospy/blob/master/ontospy/ontodocs/viz/viz_html_multi.py
+* https://github.com/lambdamusic/Ontospy/blob/master/ontospy/ontodocs/media/templates/misc/sigmajs.html
 
 ### See also
 
