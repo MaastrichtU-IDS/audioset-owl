@@ -1,4 +1,5 @@
-# ontology-editor-audioset
+![Generate documentation](https://github.com/MaastrichtU-IDS/audioset-owl/workflows/Generate%20documentation/badge.svg) ![Run notebook](https://github.com/MaastrichtU-IDS/audioset-owl/workflows/Run%20notebook/badge.svg) 
+
 A Jupyter Notebook to edit the AudioSet ontology
 
 * [AudioSet "ontology" GitHub repository](https://github.com/audioset/ontology)
