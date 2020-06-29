@@ -7,7 +7,7 @@
          xmlns="https://w3id.org/audioset#">
 
 <owl:Ontology rdf:about="https://w3id.org/audioset">
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL Ontology for the AudioSet dataset from Google.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWL Ontology for the AudioSet ontology from Google defined in JSON.</rdfs:comment>
 </owl:Ontology>
 
 <owl:Class rdf:about="#HumanSounds">
