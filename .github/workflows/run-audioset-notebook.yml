@@ -1,12 +1,14 @@
-name: Run AudioSet notebook
+name: Run notebook
 
 on:
   push:
     branches: [ master ]
+    paths:
+    - 'EditAudioSet.ipynb'
 
 jobs:
 
-  test:
+  run-notebook:
     runs-on: ubuntu-latest
     strategy:
       matrix:
